@@ -20,7 +20,7 @@ You will record your relationships within this readme file.  When writing down t
 
 **Relationships:**
 
-**STUDENT** <ins fills </ins> only one **SEAT** , a **SEAT** contains only one **STUDENT**
+**STUDENT** <ins/> fills </ins> only one **SEAT** , a **SEAT** contains only one **STUDENT**
 
 **STUDENT** has 0 or more **ENROLLMENT**, an **ENROLLMENT** contains only one **STUDENT**
 **ENROLLMENT** has 1 or more **COURSE**, a **COURSE** has only 1 **ENROLLMENT**
