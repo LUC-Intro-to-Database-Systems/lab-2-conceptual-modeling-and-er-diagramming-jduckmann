@@ -17,6 +17,11 @@ You will record your relationships within this readme file.  When writing down t
 - The connecting verb is underlined
 - Bi-direction of the relationship is represented
 
+**ER DIAGRAM:**
+
+![image](https://user-images.githubusercontent.com/117416920/201458218-12a2acd7-58a4-47cb-bdfb-683da65d5016.png)
+
+
 **Description:**
 Students register for only one seat in a course. Enrollment contains all of the courses that a student wants to take. A Course is made up of one or more Sections and is lead by one Instructor. A Professor teaches zero or more Sections within a course, and does not oversee a course directly. Each Instructor has to have at least 1 Professor associated to them. 
 
