@@ -18,6 +18,17 @@ You will record your relationships within this readme file.  When writing down t
 - Bi-direction of the relationship is represented
 
 
+**Relationships:**
+
+**STUDENT** fills only one **SEAT** , a **SEAT** contains only one **STUDENT**
+
+**STUDENT** has one **ENROLLMENT**, an **ENROLLMENT** contains only one **STUDENT**
+
+
+
+
+
+
 Once you have completed the README.md file, you will create an ER Diagram based on the relationships you have identified from the diagram. You will create the ER Diagram using a free web-based tool titled draw.io.  The shapes you will use to create your ER diagram can be found under the "Entity Relation" tab.  Instructions on how to operate draw.io can be found in the assignment resources section below.
 
 ## Requirements
