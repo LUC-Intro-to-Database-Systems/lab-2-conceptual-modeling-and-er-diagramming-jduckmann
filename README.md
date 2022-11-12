@@ -20,10 +20,10 @@ You will record your relationships within this readme file.  When writing down t
 
 **Relationships:**
 
-**STUDENT** <ins/> fills </ins> only one **SEAT** , a **SEAT** contains only one **STUDENT**
+**STUDENT** <ins/> fills </ins> only one **SEAT** , a **SEAT** <ins/>contains</ins> only one **STUDENT**
 
-**STUDENT** has 0 or more **ENROLLMENT**, an **ENROLLMENT** contains only one **STUDENT**
-**ENROLLMENT** has 1 or more **COURSE**, a **COURSE** has only 1 **ENROLLMENT**
+**STUDENT** <ins/>has</ins> 0 or more **ENROLLMENT**, an **ENROLLMENT** <ins/>contains</ins> only one **STUDENT**
+**ENROLLMENT** <ins/>has</ins> 1 or more **COURSE**, a **COURSE** <ins/>has</ins> only 1 **ENROLLMENT**
 
 **INSTRUCTOR** teaches one more **COURSE**, a **COURSE** has only one **INSTRUCTOR**
 
