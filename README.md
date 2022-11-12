@@ -17,31 +17,40 @@ You will record your relationships within this readme file.  When writing down t
 - The connecting verb is underlined
 - Bi-direction of the relationship is represented
 
+**Description:**
+Students register for one seat in a course. Enrollment contains all of the courses that a student wants to take. A Course is made up of 1 or more sections and is lead by an instructor. A Professor Oversees each Section
 
 **Relationships:**
 
 **STUDENT** <ins/> fills </ins> only one **SEAT** , a **SEAT** <ins/>contains</ins> only one **STUDENT**
 
+
 **STUDENT** <ins/>has</ins> 0 or more **ENROLLMENT**, an **ENROLLMENT** <ins/>contains</ins> only one **STUDENT**
+
 **ENROLLMENT** <ins/>has</ins> 1 or more **COURSE**, a **COURSE** <ins/>has</ins> only 1 **ENROLLMENT**
 
-**INSTRUCTOR** teaches one more **COURSE**, a **COURSE** has only one **INSTRUCTOR**
 
-**COURSE** has 1 or more **COURSE_SECTION**, a **COURSE_SECTION** has only one **COURSE**
-**COURSE_SECTION** has 1 or more **SECTION**, a **SECTION** has only one **COURSE_SECTION**
+**INSTRUCTOR** <ins/>teaches</ins> one more **COURSE**, a **COURSE** <ins/>has</ins> only one **INSTRUCTOR**
 
-**SECTION** lead by only 1 **PROFESSOR**, a **PROFESSOR** leads 0 or more **SECTION**
 
-**PROFESSOR** teaches 0 or more **PROF_COURSE**, a **PROF_COURSE** has only one **PROFESSOR**
-**PROF_COURSE** has one or more **COURSE**, a **COURSE** has only one **PROF_COURSE**
+**COURSE** <ins/>has</ins> 1 or more **COURSE_SECTION**, a **COURSE_SECTION** <ins/>has</ins> only one **COURSE**
+
+**COURSE_SECTION** <ins/>has</ins> 1 or more **SECTION**, a **SECTION** <ins/>has</ins> only one **COURSE_SECTION**
+
+
+**SECTION** <ins/>lead</ins> by only 1 **PROFESSOR**, a **PROFESSOR** <ins/>leads</ins> 0 or more **SECTION**
+
+
+**PROFESSOR** <ins/>has</ins> 0 or more **PROF_INSTRUCTOR**, a **PROF_INSTRUCTOR** <ins/>has</ins> only one **PROFESSOR**
+
+**PROF_INSTRUCTOR** <ins/>has</ins> one or more **INSTRUCTOR**, a **INSTRUCTOR** <ins/>has</ins> only one **PROF_INSTRUCTOR**
 
 
 
 **Assumptions:**
-A Course contains 1 or more sections
-Instructors are independant of the Professors
-
-
+Can a course contain 1 or more sections? YES
+Can an Instructor teach only 1 course at a time? YES
+Does an Instructor have to be tied to a Professor? YES
 
 
 Once you have completed the README.md file, you will create an ER Diagram based on the relationships you have identified from the diagram. You will create the ER Diagram using a free web-based tool titled draw.io.  The shapes you will use to create your ER diagram can be found under the "Entity Relation" tab.  Instructions on how to operate draw.io can be found in the assignment resources section below.
