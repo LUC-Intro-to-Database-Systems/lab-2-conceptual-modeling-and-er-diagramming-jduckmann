@@ -19,7 +19,7 @@ You will record your relationships within this readme file.  When writing down t
 
 **ER DIAGRAM:**
 
-![image](https://user-images.githubusercontent.com/117416920/201458218-12a2acd7-58a4-47cb-bdfb-683da65d5016.png)
+![image](https://user-images.githubusercontent.com/117416920/201458300-532de415-03cd-499d-a37d-6fb5033e9526.png)
 
 
 **Description:**
