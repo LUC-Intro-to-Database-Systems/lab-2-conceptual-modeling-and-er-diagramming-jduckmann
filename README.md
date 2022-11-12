@@ -18,7 +18,7 @@ You will record your relationships within this readme file.  When writing down t
 - Bi-direction of the relationship is represented
 
 **Description:**
-Students register for one seat in a course. Enrollment contains all of the courses that a student wants to take. A Course is made up of 1 or more sections and is lead by an instructor. A Professor Oversees each Section
+Students register for only one seat in a course. Enrollment contains all of the courses that a student wants to take. A Course is made up of one or more Sections and is lead by one Instructor. A Professor teaches zero or more Sections within a course, and does not oversee a course directly. Each Instructor has to have at least 1 Professor associated to them. 
 
 **Relationships:**
 
