@@ -22,9 +22,24 @@ You will record your relationships within this readme file.  When writing down t
 
 **STUDENT** fills only one **SEAT** , a **SEAT** contains only one **STUDENT**
 
-**STUDENT** has one **ENROLLMENT**, an **ENROLLMENT** contains only one **STUDENT**
+**STUDENT** has 0 or more **ENROLLMENT**, an **ENROLLMENT** contains only one **STUDENT**
+**ENROLLMENT** has 1 or more **COURSE**, a **COURSE** has only 1 **ENROLLMENT**
+
+**INSTRUCTOR** teaches one more **COURSE**, a **COURSE** has only one **INSTRUCTOR**
+
+**COURSE** has 1 or more **COURSE_SECTION**, a **COURSE_SECTION** has only one **COURSE**
+**COURSE_SECTION** has 1 or more **SECTION**, a **SECTION** has only one **COURSE_SECTION**
+
+**SECTION** lead by only 1 **PROFESSOR**, a **PROFESSOR** leads 0 or more **SECTION**
+
+**PROFESSOR** teaches 0 or more **PROF_COURSE**, a **PROF_COURSE** has only one **PROFESSOR**
+**PROF_COURSE** has one or more **COURSE**, a **COURSE** has only one **PROF_COURSE**
 
 
+
+**Assumptions:**
+A Course contains 1 or more sections
+Instructors are independant of the Professors
 
 
 
